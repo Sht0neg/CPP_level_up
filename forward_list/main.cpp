@@ -47,6 +47,10 @@ int main()
 
 	l1->merge(l2);
 
+	cout << "Вывод списка: ";
+	l1->traverse();
+
+	l1->unique();
 
 	cout << "Вывод списка: ";
 	l1->traverse();
@@ -56,8 +60,7 @@ int main()
 	cout << "Вывод списка: ";
 	l1->traverse();
 
-	l1->unique();
-
+	l1->insertAfter(l1->getFront()->next, 9);
 	cout << "Вывод списка: ";
 	l1->traverse();
 

@@ -141,7 +141,7 @@ void ForwardList::unique() {
 
 void ForwardList::reverse() {
 	ListNode* current = this->front;
-	ListNode* prev = this->front;
+	ListNode* prev = nullptr;
 	while (current != nullptr) {
 		ListNode* next = current->next;
 		current->next = prev;
