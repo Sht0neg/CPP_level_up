@@ -37,5 +37,6 @@ int main()
         sum += car->getSpeed();
     }
     cout << "Средняя скорость всех автомобилей: " << sum / n;
+
 }
 
